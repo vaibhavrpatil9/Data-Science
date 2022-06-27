@@ -1,4 +1,5 @@
 l1=[]
-for i in range(11):
-    l1.append(i**2)
+a=int(input("Please enter a number"))
+for i in range(a):
+    l1.append(i*2)
 print(l1)
